@@ -16,6 +16,7 @@ sudo cp /vagrant/build/xdebug.ini /etc/php5/mods-available/xdebug.ini
 sudo php5enmod xdebug
 
 # Install XHPROF
+sudo apt-get install -y graphviz
 sudo cp /vagrant/build/xhprof.so /usr/lib/php5/20121212/xhprof.so
 sudo cp /vagrant/build/xhprof.ini /etc/php5/mods-available/xhprof.ini
 sudo php5enmod xhprof
