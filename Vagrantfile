@@ -55,6 +55,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   # View the documentation for the provider you're using for more
   # information on available options.
+  config.hostsupdater.aliases = ["toolboxdemo.com"]
 
   config.vm.provision "shell", path: "build/provision.sh"
 

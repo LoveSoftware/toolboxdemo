@@ -28,7 +28,7 @@ $app->post('/uuids', function() use($app) {
 
         $response = json_encode(["uuid" => $uuid]);
 
-        return new Response($response, 201);
+        return new Response($response, 201, ['Content: application/json']);
 });
 
 $app->get('/uuids', function() use ($app) {
@@ -37,7 +37,7 @@ $app->get('/uuids', function() use ($app) {
 
         $response = json_encode(["uuids" => $uuids]);
 
-        return new Response($response, 200);
+        return new Response($response, 200, ['Content: application/json']);
 });
 
 $app->run();

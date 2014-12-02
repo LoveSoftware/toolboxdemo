@@ -2,7 +2,8 @@
     "require": {
         "silex/silex": "~1.2",
         "guzzlehttp/guzzle-services": "0.4.*",
-        "rhumsaa/uuid": "~2.8"
+        "rhumsaa/uuid": "~2.8",
+    	"behat/behat": "2.4.*@stable"
     },
     "autoload": {
         "psr-0": {

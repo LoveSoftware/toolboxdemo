@@ -9,6 +9,7 @@ sudo cp /vagrant/build/toolbox.conf /etc/apache2/sites-available/toolbox-demo.co
 sudo a2dissite 000-default.conf
 sudo a2ensite toolbox-demo.conf
 sudo a2enmod rewrite
+sudo sed -i "2i127.0.0.1 toolboxdemo.com" /etc/hosts
 
 # Install XDEBUG
 sudo pecl install xdebug
