@@ -1,6 +1,12 @@
 {
     "require": {
         "silex/silex": "~1.2",
-        "guzzlehttp/guzzle-services": "0.4.*"
+        "guzzlehttp/guzzle-services": "0.4.*",
+        "rhumsaa/uuid": "~2.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "PhpToolDemo": "src/"
+        }
     }
 }
