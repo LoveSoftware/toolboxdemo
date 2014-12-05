@@ -17,10 +17,13 @@ Interesting reads:
 Lorna Mitchell's article on Charles Proxy: http://techportal.inviqa.com/2013/03/05/manipulating-http-with-charles-proxy/
 
 Tailored Xdebug Install instructions (paste in your PHPinfo, produces step by step guide based on your system!): http://xdebug.org/wizard.php
+
 Xdebug Remote Debugging Documentation: http://xdebug.org/docs/remote
 
 Maintained version of XHPROF: https://github.com/phacility/xhprof
+
 Lorenzo Alberton's great XHPROF article: http://techportal.inviqa.com/2009/12/01/profiling-with-xhprof/
+
 Lorna Mitchell's follow up: http://techportal.inviqa.com/2013/10/01/profiling-php-applications-with-xhgui/
 
 Introduction to JMeter video tutorial (from Blazemeter, JMeter as a service): http://blazemeter.com/blog/jmeter-tutorial-video-series
