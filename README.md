@@ -4,7 +4,14 @@ This is the demo code for the talk I gave at PHPLondon.
 
 Its a vagrant box with PHP 5.6, Apache 2, Xdebug and XHPROF installed.
 
+If you haven't used vagrant before follow these instructions:
+
+https://docs.vagrantup.com/v2/getting-started/index.html
+
+Then:
+
 ```
+composer install
 vagrant up
 vagrant ssh
 ```
